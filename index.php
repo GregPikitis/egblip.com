@@ -1,6 +1,9 @@
 <html>
 	<head>
 		<!--Credit to caligari87 on reddit for the base code-->
+		<meta charset="UTF-8">
+		<title>egblip</title>
+
 		<style>
 			:focus { outline:0; /*removes the dotted link border*/ }
 
@@ -80,11 +83,11 @@
 		<div class="centerbox">
 			<h1>egblip.com!</h1>
 
-			<a href="http://start.egblip.com"><div class="iconbox"><img src="resources/icons/start.png"></br>Startpage</div></a>
+			<a href="https://start.egblip.com"><div class="iconbox"><img src="resources/icons/start.png"></br>Startpage</div></a>
 			<a href="https://github.com/GregPikitis"><div class="iconbox"><img src="resources/icons/github.png"></br>Github</div></a>
 			<a href="2016resume.pdf"><div class="iconbox"><img src="resources/icons/resume.png"></br>Resume</div></a>
 			</br>
-			<a href="http://school.egblip.com"><div class="iconbox"><img src="resources/icons/school.png"></br>School</div></a>
+			<a href="https://school.egblip.com"><div class="iconbox"><img src="resources/icons/school.png"></br>School</div></a>
 			<a href="https://www.linkedin.com/in/emelia-blankenship-2176a2126/"><div class="iconbox"><img src="resources/icons/linkedin.png"></br>LinkedIn</div></a>
 		</div>
 
