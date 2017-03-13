@@ -66,12 +66,13 @@
 		</style>
 	</head>
 	<body>
+
 		<?php
 		if ($_GET['run']) {
 		  # This code will run if ?run=true is set.
 		  shell_exec("/var/www/updatestartpage");
 		  sleep(5);
-		  header("Location: index.php");
+		  header("Location: https://egblip.com");
 		}
 		?>
 
