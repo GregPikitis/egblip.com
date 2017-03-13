@@ -63,7 +63,19 @@
 		</style>
 	</head>
 	<body>
-		<p style="text-align: left; margin: 0px;"><a href="?run=true" ;="" style="text-align:left;">Refresh</a></p>
+		<?php
+		if ($_GET['run']) {
+		  # This code will run if ?run=true is set.
+		  shell_exec("/var/www/updatestartpage");
+		  sleep(5);
+		  header("Location: index.php");
+		}
+		?>
+
+		<!— This link will add ?run=true to your URL, myfilename.php?run=true —>
+		<p style="text-align: left; margin: 0px">
+		<a href="?run=true" ;="" style="color:#4c4c4c;text-align:left;">Refresh</a>
+		</p>
 
 		<div class="centerbox">
 			<h1>egblip.com!</h1>
