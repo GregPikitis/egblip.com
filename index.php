@@ -18,7 +18,8 @@
 				font-size:13px;
 				background-color: silver;
 				background-image: url("resources/background.png");
-				background-repeat:repeat;
+				background-repeat: no-repeat;
+				background-size: 100%, 100%;
 				color: #222222;
 			}
 
