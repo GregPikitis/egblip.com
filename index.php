@@ -17,9 +17,8 @@
 				font-family:arial, sans-serif;
 				font-size:13px;
 				background-color: silver;
-				background-image: url("resources/background.png");
-				background-repeat: no-repeat;
-				background-size: 100%, 100%;
+				background: url("resources/background.jpg") no-repeat center center fixed;
+				background-size: cover;
 				color: #222222;
 			}
 
@@ -87,7 +86,7 @@
 
 			<a href="https://start.egblip.com"><div class="iconbox"><img src="resources/icons/start.png"></br>Startpage</div></a>
 			<a href="https://github.com/GregPikitis"><div class="iconbox"><img src="resources/icons/github.png"></br>Github</div></a>
-			<a href="2016resume.pdf"><div class="iconbox"><img src="resources/icons/resume.png"></br>Resume</div></a>
+			<a href="resources/Censored2017Resume.pdf"><div class="iconbox"><img src="resources/icons/resume.png"></br>Resume</div></a>
 			</br>
 			<a href="https://school.egblip.com"><div class="iconbox"><img src="resources/icons/school.png"></br>School</div></a>
 			<a href="https://www.linkedin.com/in/emelia-blankenship-2176a2126/"><div class="iconbox"><img src="resources/icons/linkedin.png"></br>LinkedIn</div></a>
