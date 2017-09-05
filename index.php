@@ -31,7 +31,8 @@
 				text-align:center;
 				vertical-align:middle;
 				box-shadow:0px 4px 6px dimgrey;
-				background: #ffffff;
+				background: #f9f6ff;
+				border-radius: 20px;
 			}
 
 			div.iconbox {
@@ -41,13 +42,15 @@
 				display:inline-block;
 				text-align:center;
 				vertical-align:middle;
+				background: #f4eeff;
 				padding:0px;
 				transition:box-shadow 0.25s;
-				box-shadow:0px 1px 2px lightgrey;
+				box-shadow:0px 1px 1px rgba(78, 62, 85, 0.88);
+				border-radius: 5px;
 			}
 
 			div.iconbox:hover {
-				box-shadow:0px 4px 6px darkgray;
+				box-shadow:0px 4px 6px rgba(78, 62, 85, 0.88);
 				transition:box-shadow 0.25s;
 			}
 
