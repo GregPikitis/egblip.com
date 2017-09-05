@@ -3,7 +3,7 @@
 		<!--Credit to caligari87 on reddit for the base code-->
 		<meta charset="UTF-8">
 		<title>egblip</title>
-
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 		<style>
 			:focus { outline:0; /*removes the dotted link border*/ }
 
@@ -42,7 +42,7 @@
 				display:inline-block;
 				text-align:center;
 				vertical-align:middle;
-				background: #f4eeff;
+				background: #ffffff;
 				padding:0px;
 				transition:box-shadow 0.25s;
 				box-shadow:0px 1px 1px rgba(78, 62, 85, 0.88);
@@ -58,12 +58,15 @@
 				text-align:left;
 				position:absolute;
 				bottom:0;
-				padding:5px;
+				padding:10px;
+				color: #FFE7F7;
 			}
 
 			img {
 				width:64px;
 				height:64px;
+				padding:5px;
+				padding-bottom:8px;
 				background: verylightgrey;
 			}
 		</style>
@@ -90,20 +93,22 @@
 
 		<!— This link will add ?run=true to your URL, myfilename.php?run=true —>
 		<p style="text-align: left; margin: 0px">
-		<a href="?run=true" ;="" style="color:#4c4c4c;text-align:left;">Refresh</a>
+		<a href="?run=true" ;="" style="color:#FFE7F7; text-align:left; padding:10px">Refresh</a>
 		</p>
 
 		<div class="centerbox">
-			<h1>egblip.com!</h1>
-
+			<img style="width:100px; height:100px; padding:10px; padding-bottom:0px" src="resources/logo.png">
+			<h1 style="font-family: 'Merriweather', serif; padding-top:0px; color:#FF89AC">egblip.com</h1>
+			<b>
 			<a href="https://start.egblip.com"><div class="iconbox"><img src="resources/icons/start.png"></br>Startpage</div></a>
 			<a href="https://github.com/GregPikitis"><div class="iconbox"><img src="resources/icons/github.png"></br>Github</div></a>
 			<a href="resources/Censored2017Resume.pdf"><div class="iconbox"><img src="resources/icons/resume.png"></br>Resume</div></a>
 			</br>
 			<a href="https://school.egblip.com"><div class="iconbox"><img src="resources/icons/school.png"></br>School</div></a>
 			<a href="https://www.linkedin.com/in/emelia-blankenship-2176a2126/"><div class="iconbox"><img src="resources/icons/linkedin.png"></br>LinkedIn</div></a>
+			</b>
 		</div>
 
-		<footer>Based off of caligari87's Startpage</footer>
+		<footer>Inspired by <a style="color:inherit; text-decoration:inherit" href="https://github.com/caligari87/startpage">caligari87</a></footer>
 	</body>
 </html>
