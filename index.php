@@ -4,6 +4,8 @@
 		<meta charset="UTF-8">
 		<title>egblip</title>
 		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<style>
 			:focus { outline:0; /*removes the dotted link border*/ }
 
@@ -17,7 +19,7 @@
 				font-family:arial, sans-serif;
 				font-size:13px;
 				background-color: silver;
-				background: url("resources/background.jpg") no-repeat center center fixed;
+				background: url("resources/background.png") no-repeat center center fixed;
 				background-size: cover;
 				color: #222222;
 			}
@@ -97,12 +99,23 @@
 		</p>
 
 		<div class="centerbox">
+		
+		
+		
+		
+		
+		
 			<img style="width:100px; height:100px; padding:10px; padding-bottom:0px" src="resources/logo.png">
 			<h1 style="font-family: 'Merriweather', serif; padding-top:0px; color:#FF89AC">egblip.com</h1>
 			<b>
 			<a href="https://start.egblip.com"><div class="iconbox"><img src="resources/icons/start.png"></br>Startpage</div></a>
-			<a href="https://github.com/GregPikitis"><div class="iconbox"><img src="resources/icons/github.png"></br>Github</div></a>
-			<a href="resources/Censored2017Resume.pdf"><div class="iconbox"><img src="resources/icons/resume.png"></br>Resume</div></a>
+			<a href="https://github.com/GregPikitis"><div class="iconbox"><img src="resources/icons/github.png"></br>Github</div></a>			
+			<a href="
+			<?php 
+				$resume = glob("resources/*.pdf");
+				echo($resume[0]);
+			?>
+			"><div class="iconbox"><img src="resources/icons/resume.png"></br>Resume</div></a>
 			</br>
 			<a href="https://school.egblip.com"><div class="iconbox"><img src="resources/icons/school.png"></br>School</div></a>
 			<a href="https://www.linkedin.com/in/emelia-blankenship-2176a2126/"><div class="iconbox"><img src="resources/icons/linkedin.png"></br>LinkedIn</div></a>
